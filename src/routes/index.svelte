@@ -1,2 +1,15 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+</script>
+
+<h1>Hi, I'm Kevin!</h1>
+<p>
+	When I'm not working, I like to solve <a href="https://en.wikipedia.org/wiki/Combination_puzzle"
+		>combination puzzles</a
+	>, play video games, volunteer to teach beginning programmers, and tinker with code.
+</p>
+
+Links:
+<ul>
+	<li><a href="https://discord.gg/J5hBe8F">C++ Help Discord</a></li>
+	<li><a href="https://github.com/kevinkjt2000">My GitHub</a></li>
+</ul>
