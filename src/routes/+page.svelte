@@ -16,7 +16,11 @@
 </div>
 
 <div class="grid-right">
-	<Box title="Tech I often use">C++ Python Svelte</Box>
+	<Box title="Tech I often use"
+		><!--C++ Python Svelte--><i class="lni lni-construction-hammer" />Under construction<i
+			class="lni lni-construction-hammer"
+		/></Box
+	>
 
 	<Box title="Links">
 		<ul>
