@@ -5,7 +5,7 @@
 <main>
 	<div class="grid-left">
 		<Box title="Hi, I'm Kevin!">
-			I stare at lights and press buttons and I'm good at it! Of course, I discuss necessary
+			I stare at lights and press buttons, and I'm good at it! Of course, I discuss necessary
 			requirements beforehand so that I can press buttons in a way that solves what is asked for.
 		</Box>
 
@@ -17,7 +17,7 @@
 	</div>
 
 	<div class="grid-right">
-		<Box title="Tech I use often">C++ Python Svelte</Box>
+		<Box title="Tech I often use">C++ Python Svelte</Box>
 
 		<Box title="Links">
 			<ul>
