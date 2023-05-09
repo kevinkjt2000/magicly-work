@@ -26,7 +26,7 @@
 		<ul>
 			<li><a href="https://discord.gg/J5hBe8F">C++ Help Discord</a></li>
 			<li><a href="https://github.com/kevinkjt2000">My GitHub <i class="lni lni-github" /></a></li>
-			<li><a href="https://s3.amazonaws.com/magicly.work/resume.pdf">My résumé (CV)</a></li>
+			<li><a href="https://s3.amazonaws.com/magicly.work/Resume_Kevin_Tindall.pdf">My résumé (CV)</a></li>
 		</ul>
 	</Box>
 </div>
