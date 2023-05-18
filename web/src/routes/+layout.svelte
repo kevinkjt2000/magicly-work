@@ -1,3 +1,14 @@
+<svelte:head>
+	<meta name="title" property="og:title" content="Kevin's Website" />
+	<meta property="og:type" content="website" />
+	<meta name="image" property="og:image" content="selfie.png" />
+	<meta
+		name="description"
+		property="og:description"
+		content="My website contains information about me and links to things that interest me."
+	/>
+</svelte:head>
+
 <main>
 	<slot />
 </main>
