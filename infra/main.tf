@@ -50,7 +50,11 @@ resource "aws_cloudfront_distribution" "magicly_work" {
 resource "aws_s3_bucket" "magicly_work" {}
 
 resource "aws_s3_bucket_public_access_block" "magicly_work" {
-  bucket = aws_s3_bucket.magicly_work.id
+  bucket                  = aws_s3_bucket.magicly_work.id
+  block_public_acls       = true
+  block_public_policy     = true
+  ignore_public_acls      = true
+  restrict_public_buckets = true
 }
 
 resource "aws_s3_bucket_policy" "allow_access_from_magicly_work" {
@@ -59,55 +63,21 @@ resource "aws_s3_bucket_policy" "allow_access_from_magicly_work" {
 }
 
 data "aws_iam_policy_document" "allow_access_from_magicly_work" {
-  policy_id = "http referer policy example"
-
   statement {
-    sid = "Allow get requests referred by www.magicly.work."
+    sid = "Allow GET requests originating from CloudFront."
     actions = [
       "s3:GetObject",
     ]
 
     condition {
-      test     = "StringLike"
-      variable = "aws:Referer"
-
-      values = [
-        "https://www.magicly.work/*",
-        "https://magicly.work/*",
-      ]
+      test     = "StringEquals"
+      variable = "AWS:SourceArn"
+      values   = [aws_cloudfront_distribution.magicly_work.arn]
     }
 
     principals {
-      type        = "*"
-      identifiers = ["*"]
-    }
-
-    resources = [
-      "${aws_s3_bucket.magicly_work.arn}/*",
-    ]
-  }
-
-  statement {
-    sid = "Explicit deny to ensure requests are allowed only from specific referer."
-    actions = [
-      "s3:GetObject",
-    ]
-
-    condition {
-      test     = "StringNotLike"
-      variable = "aws:Referer"
-
-      values = [
-        "https://www.magicly.work/*",
-        "https://magicly.work/*",
-      ]
-    }
-
-    effect = "Deny"
-
-    principals {
-      type        = "*"
-      identifiers = ["*"]
+      type        = "Service"
+      identifiers = ["cloudfront.amazonaws.com"]
     }
 
     resources = [
