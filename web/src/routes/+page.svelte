@@ -26,6 +26,7 @@
 
 	<Box title="Links">
 		<ul>
+			<li><a href="https://calendly.com/kevin_tindall/15min">Want 15 minutes of my time?</a></li>
 			<li><a href="https://discord.gg/J5hBe8F">C++ Help Discord</a></li>
 			<li><a href="https://github.com/kevinkjt2000">My GitHub <i class="lni lni-github" /></a></li>
 			<li>
