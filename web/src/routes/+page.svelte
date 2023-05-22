@@ -4,8 +4,10 @@
 
 <div class="grid-left">
 	<Box title="Hi, I'm Kevin!">
-		I stare at lights and press buttons, and I'm good at it! Of course, I discuss necessary
-		requirements beforehand so that I can press buttons in a way that solves what is asked for.
+		I'm a focused software engineer who excels at problem-solving and attention to detail. I gather
+		requirements, steadfastly stare at screens, and press buttons to unleash the power of code. I
+		drive innovation by crafting efficient, user-friendly, high-quality, and maintainable software
+		solutions to empower users and businesses.
 	</Box>
 
 	<Box title="Stuff I do for fun">
