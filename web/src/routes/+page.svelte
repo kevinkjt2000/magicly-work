@@ -27,7 +27,7 @@
 			<li><a href="https://discord.gg/J5hBe8F">C++ Help Discord</a></li>
 			<li><a href="https://github.com/kevinkjt2000">My GitHub <i class="lni lni-github" /></a></li>
 			<li>
-				<a href="https://d392i7ue2hox9z.cloudfront.net/Resume_Kevin_Tindall.pdf">My résumé (CV)</a>
+				<a href="/cdn/Resume_Kevin_Tindall.pdf">My résumé (CV)</a>
 			</li>
 		</ul>
 	</Box>
