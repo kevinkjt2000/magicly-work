@@ -29,5 +29,6 @@
 		grid-template-columns: 1fr 1fr;
 		grid-template-areas: 'grid-left' 'grid-right';
 		max-width: 1200px;
+		margin: auto;
 	}
 </style>
