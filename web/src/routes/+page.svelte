@@ -13,7 +13,11 @@
 	<Box title="Stuff I do for fun">
 		When I'm not working, I like to solve <a href="https://en.wikipedia.org/wiki/Combination_puzzle"
 			>combination puzzles</a
-		>, play video games, volunteer to teach beginning programmers, and tinker with code.
+		>, play video games, volunteer to teach beginning programmers and tinker with code. You can find
+		more about these various hobbies in my links section. I am passionate about teaching others,
+		extending into my hobby of working on open-source code (primarily on GitHub). To be a better
+		teacher, I am constantly learning too. There is always more to learn about in this ever-changing
+		landscape of technical projects, and I love it!
 	</Box>
 </div>
 
@@ -26,7 +30,15 @@
 
 	<Box title="Links">
 		<ul>
-			<li><a href="https://calendly.com/kevin_tindall/15min">Want 15 minutes of my time?</a></li>
+			<li>
+				<a href="https://calendly.com/kevin_tindall/15min">Want 15 minutes of my time?</a>
+				<a href="https://calendly.com/kevin_tindall/30min">30?</a>
+			</li>
+			<li>
+				<a href="https://www.linkedin.com/in/kevin-tindall/"
+					>My LinkedIn <i class="lni lni-linkedin" /></a
+				>
+			</li>
 			<li><a href="https://discord.gg/J5hBe8F">C++ Help Discord</a></li>
 			<li><a href="https://github.com/kevinkjt2000">My GitHub <i class="lni lni-github" /></a></li>
 			<li>
