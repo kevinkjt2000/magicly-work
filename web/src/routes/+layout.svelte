@@ -24,11 +24,18 @@
 
 	main {
 		display: grid;
-		grid-column-gap: 1rem;
 		grid-auto-rows: min-content;
-		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 1rem;
+		grid-row-gap: 1rem;
 		grid-template-areas: 'grid-left' 'grid-right';
+		grid-template-columns: 1fr;
 		max-width: 1200px;
 		margin: auto;
+	}
+
+	@media only screen and (min-width: 768px) {
+		main {
+			grid-template-columns: 1fr 1fr;
+		}
 	}
 </style>
