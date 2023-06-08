@@ -22,11 +22,13 @@
 </div>
 
 <div class="grid-right">
-	<Box title="Tech I often use"
-		><!--C++ Python Svelte--><i class="lni lni-construction-hammer" />Under construction<i
-			class="lni lni-construction-hammer"
-		/></Box
-	>
+	<Box title="Proof I'm a polyglot programmer">
+		<figure>
+			<embed
+				src="https://wakatime.com/share/@74c5ac9b-24a0-4a24-b718-d00016fdee6b/13a5bf68-ec1c-494d-95f7-2646c67d2d45.svg"
+			/>
+		</figure>
+	</Box>
 
 	<Box title="Links">
 		<ul>
