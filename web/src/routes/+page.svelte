@@ -33,10 +33,6 @@
 	<Box title="Links">
 		<ul>
 			<li>
-				<a href="https://calendly.com/kevin_tindall/15min">Want 15 minutes of my time?</a>
-				<a href="https://calendly.com/kevin_tindall/30min">30?</a>
-			</li>
-			<li>
 				<a href="https://www.linkedin.com/in/kevin-tindall/"
 					>My LinkedIn <i class="lni lni-linkedin" /></a
 				>
