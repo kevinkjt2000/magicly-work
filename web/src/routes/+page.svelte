@@ -1,9 +1,10 @@
 <script>
+	import { _ } from 'svelte-i18n';
 	import Box from '$lib/Box.svelte';
 </script>
 
 <div class="grid-left">
-	<Box title="Hi, I'm Kevin!">
+	<Box title={$_('greeting_title')}>
 		I'm a focused software engineer who excels at problem-solving and attention to detail. I gather
 		requirements, steadfastly stare at screens, and press buttons to unleash the power of code. I
 		drive innovation by crafting efficient, user-friendly, high-quality, and maintainable software
