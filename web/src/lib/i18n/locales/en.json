@@ -1,3 +1,6 @@
 {
-  "greeting_title": "Hello, I'm Kevin!"
+  "greeting_title": "Hello, I'm Kevin!",
+  "about_me_title": "Stuff I do for fun",
+  "polyglot_title": "Proof I'm a polyglot programmer",
+  "links_title": "Links"
 }

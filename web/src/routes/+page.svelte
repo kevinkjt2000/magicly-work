@@ -5,13 +5,10 @@
 
 <div class="grid-left">
 	<Box title={$_('greeting_title')}>
-		I'm a focused software engineer who excels at problem-solving and attention to detail. I gather
-		requirements, steadfastly stare at screens, and press buttons to unleash the power of code. I
-		drive innovation by crafting efficient, user-friendly, high-quality, and maintainable software
-		solutions to empower users and businesses.
+		This is my personal website to showcase my experience with programming and share a little about me.
 	</Box>
 
-	<Box title="Stuff I do for fun">
+	<Box title={$_('about_me_title')}>
 		When I'm not working, I like to solve <a href="https://en.wikipedia.org/wiki/Combination_puzzle"
 			>combination puzzles</a
 		>, play video games, volunteer to teach beginning programmers and tinker with code. You can find
@@ -23,7 +20,7 @@
 </div>
 
 <div class="grid-right">
-	<Box title="Proof I'm a polyglot programmer">
+	<Box title={$_('polyglot_title')}>
 		<figure>
 			<embed
 				src="https://wakatime.com/share/@74c5ac9b-24a0-4a24-b718-d00016fdee6b/13a5bf68-ec1c-494d-95f7-2646c67d2d45.svg"
@@ -31,7 +28,7 @@
 		</figure>
 	</Box>
 
-	<Box title="Links">
+	<Box title={$_('links_title')}>
 		<ul>
 			<li>
 				<a href="https://www.linkedin.com/in/kevin-tindall/"
