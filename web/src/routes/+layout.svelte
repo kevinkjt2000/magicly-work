@@ -1,20 +1,19 @@
+<script lang="ts">
+	import favicon from '$lib/assets/favicon.svg';
+
+	let { children } = $props();
+</script>
+
 <svelte:head>
-	<meta name="title" property="og:title" content="Kevin's Website" />
-	<meta property="og:type" content="website" />
-	<meta name="image" property="og:image" content="selfie.png" />
-	<meta
-		name="description"
-		property="og:description"
-		content="My website contains information about me and links to things that interest me."
-	/>
+	<link rel="icon" href={favicon} />
 </svelte:head>
 
 <main>
-	<slot />
+	{@render children?.()}
 </main>
 
 <style>
-	@import 'lineicons/web-font/lineicons.css';
+	@import 'lineicons/assets/icon-fonts/lineicons.css';
 
 	:root {
 		--box-background: white;

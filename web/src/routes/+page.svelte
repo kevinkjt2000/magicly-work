@@ -5,7 +5,8 @@
 
 <div class="grid-left">
 	<Box title={$_('greeting_title')}>
-		This is my personal website to showcase my experience with programming and share a little about me.
+		This is my personal website to showcase my experience with programming and share a little about
+		me.
 	</Box>
 
 	<Box title={$_('about_me_title')}>
@@ -32,11 +33,13 @@
 		<ul>
 			<li>
 				<a href="https://www.linkedin.com/in/kevin-tindall/"
-					>My LinkedIn <i class="lni lni-linkedin" /></a
+					>My LinkedIn <i class="lni lni-linkedin"></i></a
 				>
 			</li>
 			<li><a href="https://discord.gg/J5hBe8F">C++ Help Discord</a></li>
-			<li><a href="https://github.com/kevinkjt2000">My GitHub <i class="lni lni-github" /></a></li>
+			<li>
+				<a href="https://github.com/kevinkjt2000">My GitHub <i class="lni lni-github"></i></a>
+			</li>
 			<li>
 				<a href="/cdn/Resume_Kevin_Tindall.pdf">My résumé (CV)</a>
 			</li>
